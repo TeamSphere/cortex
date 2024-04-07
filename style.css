@@ -2,9 +2,20 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    font-family: Arial, sans-serif;
 }
-#container {
-    width: 100vw;
-    height: 100vh;
+
+header, main {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+section p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
 }
